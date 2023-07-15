@@ -1,0 +1,28 @@
+.container{
+    background-color: #202020;
+    width:800px;
+    height:800px;
+    display: flex;
+    flex-wrap: wrap;
+    padding:10px;
+    border-radius: 4px;
+}
+
+.window{
+    background-color: aliceblue;
+    width:48px;
+    height:48x;
+    border: 1px solid gray
+}
+
+body{
+    margin:0px;
+    display:flex;
+    background-color: #181818;
+    justify-content: center;
+    align-items: center;
+}
+
+html, body{
+    height: 100%;
+}
