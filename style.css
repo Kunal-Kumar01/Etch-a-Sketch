@@ -8,11 +8,39 @@
     border-radius: 4px;
 }
 
+.submit{
+    height:40px;
+    width:120px;
+    font-size: 20px;
+}
+
+.userInput{
+    color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:12px;
+}
+
+.prompt{
+    color:aliceblue;
+    font-size:50px;
+    margin:0px;
+}
+
 .window{
     background-color: aliceblue;
     width:48px;
     height:48x;
-    border: 1px solid gray
+    /* border: 1px solid gray */
+}
+
+.input{
+    width:400px;
+    height:40px;
+    border:2px solid gray;
+    font-size: 20px;
 }
 
 body{
@@ -21,6 +49,7 @@ body{
     background-color: #181818;
     justify-content: center;
     align-items: center;
+    gap:12px;
 }
 
 html, body{
