@@ -35,6 +35,7 @@ submit.addEventListener('click',()=>{
     input = parseInt(userInput);
     // console.log(typeof(numb));
     size = (800/userInput)-2;
+    console.log(size);
     const block = document.getElementsByClassName('window');
     //block.remove();
 
@@ -56,8 +57,8 @@ function printGrid(a,b,size){
         for(j=0; j<b; j++){
             const content = document.createElement('div');
             content.classList.add('window');
-            content.style.width='${size}px';
-            content.style.height = '${size}px';
+            content.style.width=`${size}px`;
+            content.style.height = `${size}px`;
             container.appendChild(content);
         }
     }
